@@ -73,6 +73,9 @@ h2{
 	margin:0;
 	line-height: 0.9;
 }
+span{
+	color: rgba(238, 224, 197, 0.774);
+}
 
 h3{
 	font-size: 24px;
@@ -134,11 +137,13 @@ a:hover{
 	font-family: "Droid Serif", Serif;
 	font-style: italic;
 	font-size: 12px;
+	margin: 0;
 }
 
 .subtitle{
 	margin-bottom: 77px;
 	font-size: 14px;
+
 }
 
 .flexer{
@@ -888,8 +893,9 @@ nav ul li:hover .sub-menu {
 }
 .rslides .item p{
 	font-size: 16px;
-	color: #c4c4c4;
+	color: #f8f8f8;
 	margin: 50px 0 105px 0;
+	align-content: center;
 }
 
 .rslides .item a{
@@ -1249,7 +1255,7 @@ nav ul li:hover .sub-menu {
 }
 
 #index1 .home-shipping{
-	background: url(../images/supportbanner.png) no-repeat center center fixed;
+	background: url(../images/jcbanner.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
 
