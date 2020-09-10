@@ -74,9 +74,31 @@ h2{
 	line-height: 0.9;
 }
 span{
-	color: rgba(238, 224, 197, 0.774);
+	color: rgba(238, 224, 197, 0.877);
 }
-
+.link, .link2{
+	padding: 10px;
+	overflow: hidden;
+	transition: .4s ease;
+	opacity: 1;
+	color: blanchedalmond;
+	background-color: transparent;
+	border-color:  white;
+	position: absolute;
+	text-align: end;
+}
+.link{
+	transform: translate(7%, 650%);
+	-ms-transform: translate(-10%, -100%);
+	width: 45%;
+	text-align: center;
+}
+.link2{
+	transform: translate(115%, 650%);
+	-ms-transform: translate(-10%, -100%);
+	width: 45%;
+	text-align: center;
+}
 h3{
 	font-size: 24px;
 	color: #282828;
