@@ -76,18 +76,31 @@ h2{
 span{
 	color: rgba(238, 224, 197, 0.877);
 }
-.link, .link2{
+.link, .link2, .linkl, .linkl2 {
 	padding: 10px;
 	overflow: hidden;
 	transition: .4s ease;
 	opacity: 1;
-	color: blanchedalmond;
+	color: white;
 	background-color: transparent;
 	border-color:  white;
 	position: absolute;
-	text-align: end;
+	text-align: center;
 }
-.link{
+
+
+.linkl2{
+	transform: translate(110%, 100%);
+	-ms-transform: translate(-10%, -5%);
+	width: 45%;
+}
+
+.linkl{
+	transform: translate(7%, 100%);
+	-ms-transform: translate(-10%, -100%);
+	width: 45%;
+}
+.link {
 	transform: translate(7%, 650%);
 	-ms-transform: translate(-10%, -100%);
 	width: 45%;
@@ -1135,6 +1148,7 @@ nav ul li:hover .sub-menu {
 	font-weight: 500;
 	color: #282828;
 	margin: 25px 0 15px 0;
+	text-align: center;
 }
 
 .product .price{
