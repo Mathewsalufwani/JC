@@ -74,9 +74,44 @@ h2{
 	line-height: 0.9;
 }
 span{
-	color: rgba(238, 224, 197, 0.774);
+	color: rgba(238, 224, 197, 0.877);
+}
+.link, .link2, .linkl, .linkl2 {
+	padding: 10px;
+	overflow: hidden;
+	transition: .4s ease;
+	opacity: 1;
+	color: white;
+	background-color: transparent;
+	border-color:  white;
+	position: absolute;
+	text-align: center;
 }
 
+
+.linkl2{
+	transform: translate(110%, 100%);
+	-ms-transform: translate(-10%, -5%);
+	width: 45%;
+}
+
+.linkl{
+	transform: translate(7%, 100%);
+	-ms-transform: translate(-10%, -100%);
+	width: 45%;
+}
+.link {
+	transform: translate(7%, 650%);
+	-ms-transform: translate(-10%, -100%);
+	width: 45%;
+	text-align: center;
+}
+.link2{
+	transform: translate(115%, 650%);
+	-ms-transform: translate(-10%, -100%);
+	width: 45%;
+	text-align: center;
+}
 h3{
 	font-size: 24px;
 	color: #282828;
@@ -160,10 +195,20 @@ a:hover{
 	width: 100%;
 	height: auto;
 }
-.banneritem, .resp-img2{
+
+.resp-img2{
+	height: 250.5px;
+	width: 100%;
+}
+
+.resp-img2l{
+	height: 350.5px;
+	width: 97%;
+}
+
+.banneritem, .resp-img2 .resp-img2l{
 	margin-top: 0.5%;
 	width: 100%;
-	height: 250.5px;
 }
 
 .pos-r{
@@ -719,9 +764,6 @@ nav ul li:hover .sub-menu {
     cursor: pointer;
 }
 
-#index2 .banner-item .overlay{
-}
-
 #index2 .banner-item:last-child{
 	margin-right: 0;
 }
@@ -845,35 +887,45 @@ nav ul li:hover .sub-menu {
 
 #index1 header .rslides .item1{
 	background-image: url(../images/allg.jpg);
-	
-	
 }
 
 #index1 header .rslides .item2{
 	background-image: url(../images/allb.jpg);
 }
 
-#index2 header .rslides .item1{
+#index1 header .rslides .item1l{
+	background-image: url(../images/JX04.jpg);
+}
+
+#index1 header .rslides .item2l{
+	background-image: url(../images/JX06A.jpg);
+}
+
+#index1 header .rslides .item3l{
+	background-image: url(../images/JX03.jpg);
+}
+
+#index2 header .rslides .item1 .item1l{
 	background-image: url("http://placehold.it/1920x980");
 }
 
-#index2 header .rslides .item2{
+#index2 header .rslides .item2 .item2l{
 	background-image: url("http://placehold.it/1920x980");
 }
 
-#index3 header .rslides .item1{
+#index3 header .rslides .item1 .item1l{
 	background-image: url("http://placehold.it/1920x980");
 }
 
-#index3 header .rslides .item2{
+#index3 header .rslides .item2 .item2l{
 	background-image: url("http://placehold.it/1920x980");
 }
 
-#index4 header .rslides .item1{
+#index4 header .rslides .item1 .item1l{
 	background-image: url("http://placehold.it/1800x813");
 }
 
-#index4 header .rslides .item2{
+#index4 header .rslides .item2 .item2l{
 	background-image: url("http://placehold.it/1800x813");
 }
 
@@ -1096,6 +1148,7 @@ nav ul li:hover .sub-menu {
 	font-weight: 500;
 	color: #282828;
 	margin: 25px 0 15px 0;
+	text-align: center;
 }
 
 .product .price{
