@@ -886,10 +886,19 @@ nav ul li:hover .sub-menu {
 }
 
 #index1 header .rslides .item1{
-	background-image: url(../images/allg.jpg);
+	background-image: url(../images/B1.JPG);
 }
 
 #index1 header .rslides .item2{
+	background-image: url(../images/allb.jpg);
+}
+
+#index1 header .rslides .item3{
+	background-image: url(../images/allg.jpg);
+	background-size: cover;
+}
+
+#index1 header .rslides .item4{
 	background-image: url(../images/allb.jpg);
 }
 
@@ -905,14 +914,8 @@ nav ul li:hover .sub-menu {
 	background-image: url(../images/JX03.jpg);
 	}
 	
-	#index1 header .rslides .item4l{
-	background-image: url(../images/9W2.jpg);
-	background-size: 99% 100%;
-	background-repeat: no-repeat;
-	}
-	
-	#index2 header .rslides .item1 .item1l{
-		background-image: url("http://placehold.it/1920x980");
+#index2 header .rslides .item1 .item1l{
+	background-image: url("http://placehold.it/1920x980");
 }
 
 #index2 header .rslides .item2 .item2l{
@@ -942,14 +945,16 @@ nav ul li:hover .sub-menu {
 .rslides .item h2:nth-child(even) {
 	color: #a98b69;
 }
-			.rslides .item .container .col-md-8{
-margin-top: 20%;
 
-
-
-margin-top: 32%;
+.rslides .item .container .col-md-8{
+	margin-top: 20%;
 	
-}#index2 .rslides .item .container .col-md-8{}.rslides .item p{
+}
+
+#index2 .rslides .item .container .col-md-8{
+	margin-top: 32%;
+}
+.rslides .item p{
 	font-size: 16px;
 	color: #f8f8f8;
 	margin: 50px 0 105px 0;
