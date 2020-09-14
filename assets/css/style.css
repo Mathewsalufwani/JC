@@ -98,7 +98,7 @@ span{
 .linkl{
 	transform: translate(7%, 100%);
 	-ms-transform: translate(-10%, -100%);
-	width: 45%;
+	width: 90%;
 }
 .link {
 	transform: translate(7%, 650%);
@@ -4089,4 +4089,21 @@ footer #botbar ul li:hover{
 	.container{
 		width: 1200px;
 	}
+}
+
+#button{
+	background: linear-gradient(to right, #33c396 0%, #a4e45c 100%);
+	width: 49%;
+	margin-bottom: 4%;
+}
+
+#buttonj{
+	background: #ff8c1a;
+	width: 49%;
+	margin-bottom: 4%;
+}
+
+#buton{
+	background: linear-gradient(to right, #33c396 0%, #a4e45c 100%);
+	margin-bottom: 4%;
 }
