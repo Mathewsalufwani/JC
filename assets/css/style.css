@@ -81,7 +81,7 @@ span{
 	overflow: hidden;
 	transition: .4s ease;
 	opacity: 1;
-	color: white;
+	color: black;
 	background-color: transparent;
 	border-color:  white;
 	position: absolute;
@@ -96,7 +96,7 @@ span{
 }
 
 .linkl{
-	transform: translate(7%, 100%);
+	transform: translate(7%, 50%);
 	-ms-transform: translate(-10%, -100%);
 	width: 45%;
 }
@@ -894,7 +894,7 @@ nav ul li:hover .sub-menu {
 }
 
 #index1 header .rslides .item1l{
-	background-image: url(../images/JX04.jpg);
+	background-image: url(../images/B1.JPG);
 }
 
 #index1 header .rslides .item2l{
@@ -903,10 +903,16 @@ nav ul li:hover .sub-menu {
 
 #index1 header .rslides .item3l{
 	background-image: url(../images/JX03.jpg);
-}
-
-#index2 header .rslides .item1 .item1l{
-	background-image: url("http://placehold.it/1920x980");
+	}
+	
+	#index1 header .rslides .item4l{
+	background-image: url(../images/9W2.jpg);
+	background-size: 99% 100%;
+	background-repeat: no-repeat;
+	}
+	
+	#index2 header .rslides .item1 .item1l{
+		background-image: url("http://placehold.it/1920x980");
 }
 
 #index2 header .rslides .item2 .item2l{
@@ -936,14 +942,14 @@ nav ul li:hover .sub-menu {
 .rslides .item h2:nth-child(even) {
 	color: #a98b69;
 }
-.rslides .item .container .col-md-8{
-	margin-top: 20%;
-}
+			.rslides .item .container .col-md-8{
+margin-top: 20%;
 
-#index2 .rslides .item .container .col-md-8{
-	margin-top: 32%;
-}
-.rslides .item p{
+
+
+margin-top: 32%;
+	
+}#index2 .rslides .item .container .col-md-8{}.rslides .item p{
 	font-size: 16px;
 	color: #f8f8f8;
 	margin: 50px 0 105px 0;
@@ -1308,14 +1314,15 @@ nav ul li:hover .sub-menu {
 }
 
 #index1 .home-shipping{
-	background: url(../images/jcbanner.jpg) no-repeat center center fixed;
+	background: url(../images/B1.JPG) no-repeat center center fixed;
 	background-size: cover;
+	
 }
 
 #index1 .home-shipping .shipping-1,
 #index1 .home-shipping .shipping-2,
 #index1 .home-shipping .shipping-3{
-	padding-top:132px;
+	padding-top:202px;
 	padding-bottom:132px;
 }
 
@@ -1394,7 +1401,7 @@ nav ul li:hover .sub-menu {
 
 #index1 .home-shipping .shipping-1,
 #index1 .home-shipping .shipping-3{
-	border: 1px solid rgba(255,255,255,.2);
+	
 	transition: background-color 0.5s ease;
 	cursor: pointer;
 }
