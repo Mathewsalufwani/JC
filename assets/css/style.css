@@ -73,7 +73,45 @@ h2{
 	margin:0;
 	line-height: 0.9;
 }
+span{
+	color: rgba(238, 224, 197, 0.877);
+}
+.link, .link2, .linkl, .linkl2 {
+	padding: 10px;
+	overflow: hidden;
+	transition: .4s ease;
+	opacity: 1;
+	color: white;
+	background-color: transparent;
+	border-color:  white;
+	position: absolute;
+	text-align: center;
+}
 
+
+.linkl2{
+	transform: translate(110%, 100%);
+	-ms-transform: translate(-10%, -5%);
+	width: 45%;
+}
+
+.linkl{
+	transform: translate(7%, 100%);
+	-ms-transform: translate(-10%, -100%);
+	width: 90%;
+}
+.link {
+	transform: translate(7%, 650%);
+	-ms-transform: translate(-10%, -100%);
+	width: 45%;
+	text-align: center;
+}
+.link2{
+	transform: translate(115%, 650%);
+	-ms-transform: translate(-10%, -100%);
+	width: 45%;
+	text-align: center;
+}
 h3{
 	font-size: 24px;
 	color: #282828;
@@ -134,11 +172,13 @@ a:hover{
 	font-family: "Droid Serif", Serif;
 	font-style: italic;
 	font-size: 12px;
+	margin: 0;
 }
 
 .subtitle{
 	margin-bottom: 77px;
 	font-size: 14px;
+
 }
 
 .flexer{
@@ -156,6 +196,20 @@ a:hover{
 	height: auto;
 }
 
+.resp-img2{
+	height: 250.5px;
+	width: 100%;
+}
+
+.resp-img2l{
+	height: 350.5px;
+	width: 97%;
+}
+
+.banneritem, .resp-img2 .resp-img2l{
+	margin-top: 0.5%;
+	width: 100%;
+}
 
 .pos-r{
 	position: relative;
@@ -710,9 +764,6 @@ nav ul li:hover .sub-menu {
     cursor: pointer;
 }
 
-#index2 .banner-item .overlay{
-}
-
 #index2 .banner-item:last-child{
 	margin-right: 0;
 }
@@ -835,34 +886,46 @@ nav ul li:hover .sub-menu {
 }
 
 #index1 header .rslides .item1{
-	background-image: url(../images/Home-Bannerb.png);
+	background-image: url(../images/allg.jpg);
 }
 
 #index1 header .rslides .item2{
-	background-image: url(../images/Home-Banner-2b.png);
+	background-image: url(../images/allb.jpg);
 }
 
-#index2 header .rslides .item1{
+#index1 header .rslides .item1l{
+	background-image: url(../images/JX04.jpg);
+}
+
+#index1 header .rslides .item2l{
+	background-image: url(../images/JX06A.jpg);
+}
+
+#index1 header .rslides .item3l{
+	background-image: url(../images/JX03.jpg);
+}
+
+#index2 header .rslides .item1 .item1l{
 	background-image: url("http://placehold.it/1920x980");
 }
 
-#index2 header .rslides .item2{
+#index2 header .rslides .item2 .item2l{
 	background-image: url("http://placehold.it/1920x980");
 }
 
-#index3 header .rslides .item1{
+#index3 header .rslides .item1 .item1l{
 	background-image: url("http://placehold.it/1920x980");
 }
 
-#index3 header .rslides .item2{
+#index3 header .rslides .item2 .item2l{
 	background-image: url("http://placehold.it/1920x980");
 }
 
-#index4 header .rslides .item1{
+#index4 header .rslides .item1 .item1l{
 	background-image: url("http://placehold.it/1800x813");
 }
 
-#index4 header .rslides .item2{
+#index4 header .rslides .item2 .item2l{
 	background-image: url("http://placehold.it/1800x813");
 }
 
@@ -882,8 +945,9 @@ nav ul li:hover .sub-menu {
 }
 .rslides .item p{
 	font-size: 16px;
-	color: #c4c4c4;
+	color: #f8f8f8;
 	margin: 50px 0 105px 0;
+	align-content: center;
 }
 
 .rslides .item a{
@@ -908,6 +972,7 @@ nav ul li:hover .sub-menu {
 
 .rslides .item1 a{
 	color: #a98b69;
+
 }
 
 .rslides .item1 a:after{
@@ -1083,6 +1148,7 @@ nav ul li:hover .sub-menu {
 	font-weight: 500;
 	color: #282828;
 	margin: 25px 0 15px 0;
+	text-align: center;
 }
 
 .product .price{
@@ -1242,7 +1308,7 @@ nav ul li:hover .sub-menu {
 }
 
 #index1 .home-shipping{
-	background: url(../images/supportbanner.png) no-repeat center center fixed;
+	background: url(../images/jcbanner.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -4023,4 +4089,21 @@ footer #botbar ul li:hover{
 	.container{
 		width: 1200px;
 	}
+}
+
+#button{
+	background: linear-gradient(to right, #33c396 0%, #a4e45c 100%);
+	width: 49%;
+	margin-bottom: 4%;
+}
+
+#buttonj{
+	background: #ff8c1a;
+	width: 49%;
+	margin-bottom: 4%;
+}
+
+#buton{
+	background: linear-gradient(to right, #33c396 0%, #a4e45c 100%);
+	margin-bottom: 4%;
 }
